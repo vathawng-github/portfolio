@@ -40,3 +40,16 @@
     font-weight: 300;
     text-align: center;
 }
+
+@media screen and (max-width: 820px) {
+    .aboutContent {
+        display: flex;
+        width: 90vw;
+        flex-wrap: wrap;
+    }
+
+    .horizontal {
+        display: flex;
+        flex-direction: column;
+    }
+}
