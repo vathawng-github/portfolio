@@ -23,7 +23,7 @@ const About = () => {
 
                         🌐 Outside of coding, you'll likely find me exploring the latest web development / design trends, experimenting with new technologies, or engaging with the vibrant tech community. I'm all about continuous learning and staying updated with the ever-evolving web landscape. <br /><br />
 
-                        Let's collaborate and bring your digital ideas to life! Feel free to reach out at vathawng.career@gmail.com or connect with me on <a href = "www.linkedin.com/in/vanbawi-thawng-426010206" className="link">LinkedIn.</a></p> <br /> 
+                        Let's collaborate and bring your digital ideas to life! Feel free to reach out at vathawng.career@gmail.com or connect with me on <a href = "https://www.linkedin.com/in/vanbawi-thawng-426010206" className="link">LinkedIn.</a></p> <br /> 
                         <h3>Organizations</h3>
                         <div className="divider"></div>
                         <div className = "horizontal">
