@@ -1,0 +1,67 @@
+#Contact {
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.contactSection {
+    height: 100vh;
+    width: 75vw;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: #ff5361;
+    color: #f5f5f5;
+    font-size: 18px;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo > * {
+    margin: 10px;
+}
+
+.email {
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: 300;
+}

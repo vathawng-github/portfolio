@@ -1,0 +1,42 @@
+#about {
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.aboutContent {
+    height: 100vh;
+    width: 75vw;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.orgs {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    object-fit: contain;
+    height: 15rem;
+    border-radius: 2rem;
+}
+
+.org-text {
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: 300;
+    text-align: center;
+}
