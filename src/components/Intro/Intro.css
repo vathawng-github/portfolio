@@ -46,6 +46,14 @@
     font-weight: 200;
 }
 
+.closingPara {
+    margin-bottom: 2rem;
+    font-size: small;
+    font-weight: 200;
+    position: absolute;
+    bottom: 0;
+}
+
 .btn {
     background: white;
     margin: 1rem 0;

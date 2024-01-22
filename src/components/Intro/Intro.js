@@ -12,6 +12,8 @@ const Intro = () => {
                     <span className="hello">Hello,</span>
                     <span className="introText">I'm <span className="introName">Van Bawi</span> <br />UX/UI Design & Web Developer</span>
                     <p className="introPara">I design and build applications and interfaces using modern web technologies.</p>
+                    <br /><br />
+                    <p className="closingPara">Designed in Adobe XD and coded In VS Code. Powered by React and deployed with Vercel.</p>
                 </div>
                 <img src = {Headshot} alt = "headshot" className="bg" id = "me"/>
             </section>
