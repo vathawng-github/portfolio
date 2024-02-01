@@ -12,8 +12,25 @@ import PokemonVid from "../../assets/projects/pokemon.mp4";
 import linkedInVid from "../../assets/projects/linkedIN.mp4";
 import SkyHigh from "../../assets/projects/SkyHigh.mp4";
 
+import gsap from "gsap";
+import { useRef, useEffect } from "react";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 
 const Projects = () => {
+
+    let el = useRef();
+    let q = gsap.utils.selector(el);
+
+    useEffect(() => {
+         gsap.fromTo(".projectSection", {opacity: 0},{duration: 3, opacity: 1, scrollTrigger: {
+            trigger: ".projectSection"
+        }});
+    }, []);
+   
+
     return (
         <div>
             <section id = "projects">

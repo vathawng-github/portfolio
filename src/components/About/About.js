@@ -8,8 +8,19 @@ import CEBC from "../../assets/cebclogo.png";
 import Biakttheng from "../../assets/biakttheng.png";
 import PCH from "../../assets/pch.png";
 
+import gsap from "gsap";
+import { useRef, useEffect } from "react";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 
 const About = () => {
+
+    useEffect(() => {
+        gsap.fromTo(".aboutContent", {opacity: 0},{duration: 3, opacity: 1})
+    }, []);
+
     return (
         <div>
             <section id = "about">
